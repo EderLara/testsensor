@@ -1,0 +1,32 @@
+{
+  "name": "sensor",
+  "version": "1.0.0",
+  "description": "Simulador de sensores para hyperiot_db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/"
+  },
+  "keywords": [
+    "sensor",
+    "nodejs",
+    "agenda",
+    "mongodb",
+    "simulador",
+    "iot",
+    "riot"
+  ],
+  "author": "@Eder Lara T",
+  "license": "MIT",
+  "dependencies": {
+    "agenda": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
